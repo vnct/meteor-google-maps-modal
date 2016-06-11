@@ -8,8 +8,6 @@ Template.home.events({
   'click .call-modal': function(event, instance, template) {
     event.preventDefault();
     let personal_data = "toto";
-    // var data = Template.currentData(self.view);
-    // Blaze.renderWithData(Template.MyMap, data, $("#map-container")[0])
     Modal.show('MyModal',personal_data);
   }
 });
